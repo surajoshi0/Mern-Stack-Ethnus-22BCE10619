@@ -1,0 +1,71 @@
+
+:root {
+    --primary-color: #ffc107;
+    --dark-blue: #0b2154;
+}
+
+.top-bar {
+    background-color: var(--primary-color);
+    padding: 8px 0;
+}
+
+.top-bar-info {
+    color: var(--dark-blue);
+    font-size: 14px;
+}
+
+.navbar {
+    background-color: var(--dark-blue);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color) !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.get-quote-btn {
+    background-color: var(--primary-color);
+    color: var(--dark-blue);
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.hero-section {
+    position: relative;
+    background: linear-gradient(rgba(11, 33, 84, 0.6), rgba(11, 33, 84, 0.6)),
+                url("/api/placeholder/1200/600") center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.feature-box {
+    padding: 30px;
+    text-align: center;
+}
+
+.feature-box.yellow {
+    background-color: var(--primary-color);
+}
+
+.feature-box.blue {
+    background-color: var(--dark-blue);
+    color: white;
+}
+
+.feature-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.feature-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}

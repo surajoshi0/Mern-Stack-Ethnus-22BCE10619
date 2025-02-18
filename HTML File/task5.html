@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="task5.css">
+</head>
+<body>
+    <h1>Registration form</h1>
+    <form>
+        <table>
+            <tr>
+                <td class="label-cell">First Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label-cell">Last Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label-cell">Email</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td class="label-cell">Password</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td class="label-cell">Re-enter Password</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td class="label-cell">Gender:</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="label-cell">Age:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label-cell">Phone Number</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label-cell">Address</td>
+                <td><textarea class="address-textarea"></textarea></td>
+            </tr>
+            <tr>
+                <td class="label-cell">State</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label-cell">Country</td>
+                <td>
+                    <select>
+                        <option selected disabled>Choose your country ▼</option>
+                        <option>United States</option>
+                        <option>Canada</option>
+                        <option>India</option>
+                        <option>UK</option>
+                        <!-- More countries would go here -->
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="label-cell">Languages known</td>
+                <td>
+                    <input type="checkbox" id="english" name="language" value="english">
+                    <label for="english">English</label>
+                    <input type="checkbox" id="kannada" name="language" value="kannada">
+                    <label for="kannada">Kannada</label>
+                    <input type="checkbox" id="hindi" name="language" value="hindi">
+                    <label for="hindi">Hindi</label>
+                    <input type="checkbox" id="telugu" name="language" value="telugu">
+                    <label for="telugu">Telugu</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" id="declaration" name="declaration" value="true" checked>
+                    <label for="declaration">Hereby I declare all the given details are true</label>
+                    <span class="login-text">Log in to <a href="#">Ethnus</a> website</span>
+                </td>
+            </tr>
+        </table>
+        <button type="submit" class="register-button">Register</button>
+    </form>
+</body>
+</html>

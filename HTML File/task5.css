@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+table {
+    width: 800px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+td {
+    border: 1px solid #999;
+    padding: 8px;
+}
+.label-cell {
+    font-weight: bold;
+    width: 200px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 98%;
+    padding: 3px;
+    border: none;
+}
+textarea {
+    width: 98%;
+    height: 80px;
+    resize: none;
+    border: none;
+}
+select {
+    width: 180px;
+}
+.checkbox-container {
+    margin-top: 5px;
+}
+.register-button {
+    display: block;
+    margin: 20px auto;
+    padding: 5px 25px;
+}
+.login-text {
+    text-align: right;
+    padding-right: 10px;
+}
+.address-textarea {
+    height: 80px;
+}

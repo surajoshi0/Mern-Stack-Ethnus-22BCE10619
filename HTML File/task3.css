@@ -1,0 +1,20 @@
+
+.container {
+    width: 1000px;
+    border: 1px solid #000;
+    padding: 20px;
+    font-family: Times New Roman, serif;
+    background-color: #f5f5f5;
+}
+.title {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+}
+.links {
+    margin-top: 15px;
+}
+.links a {
+    color: blue;
+    text-decoration: underline;
+}

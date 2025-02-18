@@ -1,0 +1,29 @@
+
+        .header {
+            background-color: #00bcd4;
+            color: black;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .nav-item .nav-link {
+            color: white !important;
+        }
+
+        .custom-navbar {
+            background-color: #9e9e9e;
+        }
+
+        .sidebar {
+            background-color: #666;
+            color: white;
+            height: calc(100vh - 116px); /* Subtract header and navbar height */
+            padding: 15px;
+        }
+
+        .main-content {
+            background-color: #f8f9fa;
+            min-height: calc(100vh - 116px);
+            padding: 15px;
+        }
+   

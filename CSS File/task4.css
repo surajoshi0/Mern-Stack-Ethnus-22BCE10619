@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.container {
+    width: 600px;
+    height: 430px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    position: relative;
+}
+.sidenav {
+    height: 100%;
+    width: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 0;
+    z-index: 1;
+}
+.sidenav-button {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: width 0.3s;
+}
+.sidenav-button:hover {
+    width: 160px;
+}
+.content {
+    margin-left: 50px;
+    padding: 20px;
+}
+h1 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+p {
+    margin-top: 5px;
+    color: #555;
+}
+.green {
+    background-color: #00a67d;
+}
+.blue {
+    background-color: #2196F3;
+}
+.red {
+    background-color: #f44336;
+}
+.gray {
+    background-color: #555;
+}
